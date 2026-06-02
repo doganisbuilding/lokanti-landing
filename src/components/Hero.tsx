@@ -43,7 +43,7 @@ export function Hero() {
         </div>
 
         <div className="mt-[26px] flex flex-wrap items-center justify-center gap-6 font-mono text-[13px] tracking-[0.04em] text-ink-mute max-md:mt-[22px] max-md:flex-col max-md:gap-2 max-md:px-2 max-md:text-xs">
-          {["Setup in 7 Tagen", "Keine Provision pro Bestellung", "Keine technischen Kenntnisse nötig"].map(
+          {["Setup in 14 Tagen", "Keine Provision pro Bestellung", "Keine technischen Kenntnisse nötig"].map(
             (text) => (
               <span key={text} className="inline-flex items-center gap-1.5">
                 <span className="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-sage text-[9px] font-bold text-white">

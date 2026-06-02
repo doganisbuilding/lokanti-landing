@@ -28,7 +28,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Lokanti — Mehr Bestellungen. Weniger Aufwand.",
   description:
-    "Wir bringen Ihr Restaurant online — mit eigener Bestellseite und Drucker in der Küche. In 7 Tagen live.",
+    "Wir bringen Ihr Restaurant online — mit eigener Bestellseite und Drucker in der Küche. In 14 Tagen live.",
 };
 
 export default function RootLayout({

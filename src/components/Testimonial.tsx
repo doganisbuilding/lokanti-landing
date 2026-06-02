@@ -44,7 +44,7 @@ export function Testimonial() {
 
           {/* Quote card */}
           <div className="flex flex-col gap-6 rounded-[22px] bg-white p-12 px-11 shadow-[var(--shadow-card)] max-md:p-7 max-md:px-6">
-            <div className="font-[family-name:var(--font-display)] text-[clamp(24px,2.4vw,32px)] font-bold leading-[1.22] tracking-[-0.018em] text-ink max-md:text-[21px]">
+            <div className="font-[family-name:var(--font-display)] text-[clamp(24px,2.4vw,32px)] font-bold leading-[1.15] tracking-[-0.018em] text-ink max-md:text-[21px]">
               <span className="mr-0.5 align-[-16px] font-[family-name:var(--font-display)] text-[56px] leading-none text-sage max-md:text-[44px] max-md:align-[-12px]">
                 &ldquo;
               </span>
@@ -75,7 +75,7 @@ export function Testimonial() {
             <div className="mt-auto grid grid-cols-3 gap-5 border-t border-rule-soft pt-6 max-md:grid-cols-1 max-md:gap-3.5">
               {[
                 { val: "+42%", lbl: "Umsatz Mo–Do nach 90 Tagen" },
-                { val: "7 Tage", lbl: "vom Anruf bis live" },
+                { val: "14 Tage", lbl: "vom Anruf bis live" },
                 { val: "~30%", lbl: "neue Gäste online" },
               ].map((stat) => (
                 <div key={stat.val} className="max-md:flex max-md:items-baseline max-md:gap-3.5">
