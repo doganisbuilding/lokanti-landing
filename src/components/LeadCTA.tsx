@@ -10,22 +10,19 @@ export function LeadCTA() {
     e.preventDefault();
     setStatus("sending");
 
-    const form = e.currentTarget;
-    const formData = new FormData(form);
+    const formData = new FormData(e.currentTarget);
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "");
+    formData.append("subject", `Rückruf angefordert: ${formData.get("restaurant")}`);
+    formData.append("from_name", "Lokanti Website");
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          restaurant: formData.get("restaurant"),
-          name: formData.get("name"),
-          phone: formData.get("phone"),
-          callbackTime: formData.get("callbackTime"),
-        }),
+        body: formData,
       });
 
-      if (!res.ok) throw new Error();
+      const data = await res.json();
+      if (!data.success) throw new Error();
       setStatus("success");
     } catch {
       setStatus("error");
