@@ -157,11 +157,12 @@ export function LeadCTA() {
                 {status === "sending" ? "Wird gesendet..." : "Rückruf anfordern →"}
               </button>
               <div className="mt-3 text-center text-[11px] leading-snug text-ink-mute">
-                Mit dem Absenden stimmen Sie unserer{" "}
+                Ihre Angaben nutzen wir nur, um Sie zurückzurufen. Mehr in
+                unserer{" "}
                 <a href="/datenschutz" className="underline hover:text-forest">
                   Datenschutzerklärung
-                </a>{" "}
-                zu.
+                </a>
+                .
               </div>
             </form>
           )}

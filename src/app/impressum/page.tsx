@@ -23,28 +23,22 @@ export default function Impressum() {
             <p>
               Dogan Ates
               <br />
+              Lokanti
+              <br />
               Ulmenweg 3
               <br />
               37327 Leinefelde
             </p>
             <p className="mt-4">
+              Telefon:{" "}
+              <a href="tel:+4915128991909" className="text-forest hover:underline">
+                +49 1512 8991909
+              </a>
+              <br />
               E-Mail:{" "}
               <a href="mailto:hello@lokanti.com" className="text-forest hover:underline">
                 hello@lokanti.com
               </a>
-            </p>
-          </section>
-
-          <section>
-            <h2 className="mb-3 font-[family-name:var(--font-display)] text-lg font-bold text-ink">
-              Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
-            </h2>
-            <p>
-              Dogan Ates
-              <br />
-              Ulmenweg 3
-              <br />
-              37327 Leinefelde
             </p>
           </section>
         </div>

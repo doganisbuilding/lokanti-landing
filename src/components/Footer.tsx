@@ -41,7 +41,7 @@ export function Footer() {
           </h5>
           <ul className="flex flex-col gap-2">
             <li><a href="tel:+4915128991909" className="transition-colors hover:text-white">+49 1512 8991909</a></li>
-            <li><a href="mailto:hallo@lokanti.de" className="transition-colors hover:text-white">hallo@lokanti.de</a></li>
+            <li><a href="mailto:hello@lokanti.com" className="transition-colors hover:text-white">hello@lokanti.com</a></li>
             <li>Leinefelde, DE</li>
           </ul>
         </div>
@@ -60,7 +60,6 @@ export function Footer() {
 
       <div className="mx-auto mt-10 flex max-w-[1240px] flex-wrap justify-between gap-4 border-t border-white/10 px-7 pt-6 font-mono text-xs tracking-[0.04em] text-white/40 max-md:px-5">
         <span>© 2026 Lokanti — Mit ♥ in Thüringen</span>
-        <span>v1.0 · DESIGN PREVIEW</span>
       </div>
     </footer>
   );
